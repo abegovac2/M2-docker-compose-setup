@@ -9,5 +9,9 @@ password      ~> MSSQLTESTPASSWORD123$$
 database name ~> TEST_DATABASE
 
 ```
+Connection string:
+```c#
+"Data Source=localhost,1433;Initial Catalog=TEST_DATABASE;MultipleActiveResultSets=True;User Id=SA;Password=MSSQLTESTPASSWORD123$"
+```
 
 To add additional setup data, change the init.sql files contents
